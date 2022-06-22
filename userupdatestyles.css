@@ -1,0 +1,253 @@
+body {
+	background-image: url(gradient.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1920px 2500px;
+	
+}
+
+/*font family for register text*/
+@font-face {
+  font-family: Metropolis-Bold;
+  src: url(Metropolis-Bold.otf);
+  font-weight: bold;
+}
+
+/*button logout*/
+button.logout {
+	float: right;
+	font-size: 12px;  
+	letter-spacing: 2px;
+	font-family: 'Spartan', sans-serif;
+	color: white;
+	font-weight: bold;
+	
+	
+	/*box style*/
+	width: 8%;
+	height: 8%;
+	margin-top: 20px;
+	margin-right: 20px;
+    border: none;
+	background: pink;
+	padding: 11px 15px;
+	cursor: pointer;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;	
+	border: 2px solid white;
+	
+}
+button.logout:hover {
+	background-color: black;
+	color: white;
+}
+button.logout a:link {color:white;text-decoration:none;}
+button.logout a:visited {color:white;text-decoration:none;}
+
+
+/*text welcome*/
+.t-1 {
+	color: red;
+	font-family: Metropolis-Bold;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	text-transform: capitalize;	
+	padding-top: 2px;
+	margin-left: 3em;
+}
+
+/*update file text*/
+.m-t {
+	margin-left: 18em;
+	padding-top: 30px;
+	text-align: left;
+	font-family: 'Spartan', sans-serif;
+	font-size: 20px;
+	color: white;
+	padding-bottom: 10px;
+}
+
+hr {
+	border-top: 5px dotted white;
+	width: 40em;
+	
+}
+
+/*form input field*/
+div.form-field input{
+	padding: 10px 3px 10px 15px;
+    font-size: 15px;  
+	letter-spacing: 1px;
+    border: none;
+    background-color: rgba(0,0,0,0.75);
+    box-sizing: border-box;
+	font-family: 'Spartan', sans-serif;
+    width: 48%;
+	height: 50px;
+	border-radius: 35px;
+	margin-left: 23em;
+	margin-top: 10px;
+	color: white;
+	resize: none;
+	
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+}
+
+::placeholder {
+  color: white;
+  opacity: 8; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: pink;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: pink;
+}
+
+input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, input[type=tel]:focus  {
+  background-color: hsla(0, 100%, 90%, 0.8);
+  outline: none;
+}
+
+.form-field p {
+	color: white;
+	font-family: 'Spartan', sans-serif;
+	margin-left: 22em;
+	margin-bottom: 5px;
+}
+
+.form-field p:hover {
+	color: black;
+}
+
+/*button*/
+
+.btn button{
+	/*text*/
+	font-size: 12px;  
+	letter-spacing: 2px;
+	font-family: 'Spartan', sans-serif;
+	color: white;
+	font-weight: bold;
+	float: right;
+	
+	/*box style*/
+	width: 8%;
+	height: 7%;
+	margin-top: 30px;
+	margin-right: 30em;
+	margin-bottom: 5em;
+    border: none;
+	background: pink;
+	padding: 11px 15px;
+	cursor: pointer;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;	
+	
+}
+/*button hover*/
+.btn button:hover {
+	background-color: black;
+	color: white;
+}
+
+button.logout a:link {color:white;text-decoration:none;}
+button.logout a:visited {color:white;text-decoration:none;}
+
+/*-------------menu-------------------*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  margin-left: 21.7em;
+  
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 35px;
+  height: 4%;
+  
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.75) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: pink;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*--------------------------------------*/
+
+/*package text*/
+div.pkg {
+	font-family: 'Spartan', sans-serif;
+	font-size: 15px;
+	margin-left: 5px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: white;
+}
+
+.pkg select option.ch {
+	font-family: 'Spartan', sans-serif;
+	font-size: 15px;
+	color: pink;
+}
+
+div.pkg:hover {
+	color: black;
+}

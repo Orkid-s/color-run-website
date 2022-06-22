@@ -1,0 +1,148 @@
+body {
+	background-image: url(gradient.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1920px 1080px;
+}
+
+form .field-box {
+	width: 30%;
+	height: 85%;
+	border: none;
+	margin-top: 7%;
+	margin-left: 34%;
+	background: rgba(0,0,0,0.75);
+	border-radius: 35px;
+	display: inline-block; 
+		
+	/*box shadow effect*/
+	-webkit-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+}
+
+/*font family for sign in text*/
+@font-face {
+  font-family: Metropolis-Bold;
+  src: url(Metropolis-Bold.otf);
+  font-weight: bold;
+}
+
+div.signin-title {
+	font-family: Metropolis-Bold;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	
+	padding-top: 10px;
+}
+
+/*input box*/
+.form-field input{
+	padding: 10px 3px 10px 15px;
+    font-size: 15px;  
+	letter-spacing: 1px;
+    border: none;
+    background-color: hsla(0, 100%, 90%, 0.3);
+    box-sizing: border-box;
+	font-family: 'Spartan', sans-serif;
+    width: 90%;
+	height: 10%;
+	border-radius: 35px;
+	margin-left: 22px;
+	color: white;
+}
+
+/* change placeholder text color*/
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: white;
+}
+
+.username {
+	padding-top: 0;
+	padding-bottom: 20px;
+	font-family: 'Spartan', sans-serif;
+}
+
+.pwd{
+	padding-bottom: 8px;
+}
+/*button login*/
+.form-field button{
+	/*text*/
+	font-size: 15px;  
+	letter-spacing: 2px;
+	font-family: 'Spartan', sans-serif;
+	color: black;
+	font-weight: bold;
+	
+	/*box style*/
+	width: 90%;
+	height: 10%;
+	margin-top: 40px;
+	margin-left: 22px;
+    border: none;
+	background: white;
+	padding: 11px 15px;
+	cursor: pointer;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;	
+	-o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	-ms-border-radius: 35px;
+	-o-border-radius: 35px;
+}
+
+/*button login hover*/
+.form-field button:hover {
+	background-color: pink;
+	color: white;
+}
+
+/*register*/
+.container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 22px;
+}
+
+span.register a{
+	font-size: 13px;
+	font-weight: bold;
+	float: left;
+	margin-left: 10px;
+	color:white;
+	font-family: 'Spartan', sans-serif;
+	letter-spacing: 1px;
+}
+
+span.register a:link {color:white;text-decoration:none;}
+span.register a:visited {color:pink;text-decoration:none;}
+span.register a:hover {text-decoration:underline;}
+
+span.forgot-pwd a {
+	font-size: 13px;
+	font-weight: bold;
+	float: right;
+	margin-left: 10px;
+	color:white;
+	font-family: 'Spartan', sans-serif;
+	letter-spacing: 1px;
+	padding-right: 22px;
+}
+
+span.forgot-pwd a:link {color:white;text-decoration:none;}
+span.forgot-pwd a:visited {color:pink;text-decoration:none;}
+span.forgot-pwd a:hover {text-decoration:underline;}

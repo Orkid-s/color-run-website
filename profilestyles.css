@@ -1,0 +1,146 @@
+body {
+	background-image: url(gradient.jpg);
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1920px 1080px;
+	
+}
+
+/*font family for register text*/
+@font-face {
+  font-family: Metropolis-Bold;
+  src: url(Metropolis-Bold.otf);
+  font-weight: bold;
+}
+
+.t-1 {
+	color: red;
+	font-family: Metropolis-Bold;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	text-transform: capitalize;	
+	padding-top: 2px;
+	margin-left: 3em;
+}
+
+button.logout {
+	float: right;
+	font-size: 12px;  
+	letter-spacing: 2px;
+	font-family: 'Spartan', sans-serif;
+	color: white;
+	font-weight: bold;
+	
+	
+	/*box style*/
+	width: 8%;
+	height: 8%;
+	margin-top: 20px;
+	margin-right: 20px;
+    border: 2px solid white;
+	background: pink;
+	padding: 11px 15px;
+	cursor: pointer;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;	
+	
+}
+button.logout:hover {
+	background-color: black;
+	color: white;
+}
+button.logout a:link {color:white;text-decoration:none;}
+button.logout a:visited {color:white;text-decoration:none;}
+
+hr {
+	border-top: 5px dotted white;
+}
+div.box-form {
+	width: 50%;
+	height: 27em;
+	border: none;
+	background: rgba(0,0,0,0.75);
+	margin: auto;
+	margin-top: 2%;
+	box-sizing: border-box;
+	border-radius: 35px;
+	resize: both;
+	overflow: none;
+	margin-bottom: 50px;
+	
+	/*box shadow effect*/
+	-webkit-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+}
+.m-t {
+	margin-left: 30px;
+	padding-top: 30px;
+	text-align: left;
+	font-family: 'Spartan', sans-serif;
+	font-size: 20px;
+	color: white;
+	padding-bottom: 10px;
+}
+.t-2 {
+	margin-left: 30px;
+	text-align: left;
+	font-family: 'Spartan', sans-serif;
+	font-size: 15px;
+	color: white;
+	padding-top: 20px;
+	
+}
+table {
+	display: inline-block;
+	background-color: white;
+	border-radius: 35px;
+	padding-left: 20px;
+	margin-left: 20em;
+}
+
+/*button*/
+.btn {
+	margin-left: 25%;
+}
+.btn button{
+	/*text*/
+	font-size: 12px;  
+	letter-spacing: 2px;
+	font-family: 'Spartan', sans-serif;
+	color: white;
+	font-weight: bold;
+	float: right;
+	
+	/*box style*/
+	width: 20%;
+	height: 8%;
+	margin-top: 30px;
+	margin-right: 32px;
+    border: none;
+	background: pink;
+	padding: 11px 15px;
+	cursor: pointer;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;	
+	
+}
+/*button hover*/
+.btn button:hover {
+	background-color: black;
+	color: white;
+}
+.box-form hr {
+	border-top: 1px solid white;
+}
+.btn button a:link {color:white;text-decoration:none;}
+.btn button a:visited {color:white;text-decoration:none;}
+

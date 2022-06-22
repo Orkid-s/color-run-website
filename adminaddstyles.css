@@ -1,0 +1,210 @@
+body {
+	background-image: url(gradient.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1920px 1080px;
+	
+}
+
+/*form box rgba(0,0,0,0.75)*/
+div.box-form {
+	width: 50%;
+	height: 45em;
+	border: none;
+	background: rgba(0,0,0,0.75);
+	margin: auto;
+	margin-top: 4%;
+	box-sizing: border-box;
+	border-radius: 35px;
+	resize: both;
+	overflow: none;
+	
+	/*box shadow effect*/
+	-webkit-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+}
+
+/*font family for register text*/
+@font-face {
+  font-family: Metropolis-Bold;
+  src: url(Metropolis-Bold.otf);
+  font-weight: bold;
+}
+
+/*register text*/
+div.register-title {
+	color: white;
+	font-size: 40px;
+	font-family: Metropolis-Bold;
+	padding-left: 25px;
+	padding-top: 20px;
+	
+}
+
+/*fill in the form text*/
+div.fill {
+	font-family: 'Spartan', sans-serif;
+	color: white;
+	font-size: 13px;
+	padding-top: 7px;
+}
+
+/*form input field*/
+.form-field input{
+	padding: 10px 3px 10px 15px;
+    font-size: 15px;  
+	letter-spacing: 1px;
+    border: none;
+    background-color: rgba(0,0,0,0.75);
+    box-sizing: border-box;
+	font-family: 'Spartan', sans-serif;
+    width: 89%;
+	height: 50px;
+	border-radius: 35px;
+	margin-left: 2em;
+	margin-top: 10px;
+	color: white;
+	resize: none;
+	
+	
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+}
+
+::placeholder {
+  color: pink;
+  opacity: 8; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: pink;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: pink;
+}
+
+input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, input[type=tel]:focus  {
+  background-color: hsla(0, 100%, 90%, 0.8);
+  outline: none;
+}
+
+
+/*package text*/
+div.pkg {
+	font-family: 'Spartan', sans-serif;
+	font-size: 15px;
+	margin-left: 5px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: pink;
+}
+
+.pkg select option.ch {
+	font-family: 'Spartan', sans-serif;
+	font-size: 15px;
+	color: pink;
+}
+/*-------------menu-------------------*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  margin-left: 35px;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: black;
+  border-radius: 35px;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: pink;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*--------------------------------------*/
+
+
+/*register button*/
+.form-field button{
+	/*text*/
+	font-size: 15px;  
+	letter-spacing: 2px;
+	font-family: 'Spartan', sans-serif;
+	color: pink;
+	font-weight: bold;
+	resize: none;
+	
+	/*box style*/
+	width: 20%;
+	height: 6%;
+	
+	margin-top: 45px;
+	margin-left: 18em;
+    border: none;
+	background: white;
+	padding: 11px 15px;
+	cursor: pointer;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;	
+	-o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	-ms-border-radius: 35px;
+	-o-border-radius: 35px;
+	resize: none;
+}
+
+/*add button hover*/
+.form-field button:hover {
+	background-color: pink;
+	color: white;
+}
+

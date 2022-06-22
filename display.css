@@ -1,0 +1,236 @@
+body {
+	background-image: url(gradient.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 2000px 2500px;
+}
+
+.t-1 {
+	color: red;
+	font-family: Metropolis-Bold;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	margin-left: 40px;
+	text-align: center;
+	text-transform: capitalize;	
+	padding-top: 10px;
+}
+
+@font-face {
+  font-family: Metropolis-Bold;
+  src: url(Metropolis-Bold.otf);
+  
+}
+
+/*button logout*/
+button.logout {
+	float: right;
+	font-size: 12px;  
+	letter-spacing: 2px;
+	font-family: 'Spartan', sans-serif;
+	color: white;
+	font-weight: bold;
+	
+	
+	/*box style*/
+	width: 8%;
+	height: 8%;
+	margin-top: 20px;
+	margin-right: 20px;
+    border: 3px solid white;
+	background: pink;
+	padding: 11px 15px;
+	cursor: pointer;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;	
+	
+}
+button.logout:hover {
+	background-color: black;
+	color: white;
+}
+/*add button link design*/
+button.logout a:link {color:white;text-decoration:none;}
+button.logout a:visited {color:white;text-decoration:none;}
+
+
+
+table {
+	text-align: left;
+	font-family: 'Spartan', sans-serif;
+	font-size: 15px;
+	background-color: white;
+	margin: auto;
+	border-radius: 35px;
+	border: 10px ;
+	padding: 10px;
+	width: 90%;
+	
+	/*box shadow effect*/
+	-webkit-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	
+}
+
+/*even row color*/
+table tr:nth-child(even) {
+  background-color: hsla(0, 100%, 90%, 0.3);
+}
+
+table th {
+	border-radius: 35px;
+	padding: 10px;
+	margin-left: 30px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+table td {
+	border-radius: 35px;
+	padding: 10px;
+	margin-left: 30px;
+	margin-top: 40px;
+	border: 20px;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+/*button*/
+.btn {
+	margin-left: 25%;
+}
+.btn button{
+	/*text*/
+	font-size: 15px;  
+	letter-spacing: 2px;
+	font-family: 'Spartan', sans-serif;
+	
+	font-weight: bold;
+	
+	
+	/*box style*/
+	width: 15%;
+	height: 8%;
+	margin-top: 40px;
+	margin-left: 18em;
+	margin-bottom: 30px;
+    border: none;
+	background: pink;
+	padding: 11px 15px;
+	cursor: pointer;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;	
+	
+	/*box shadow effect*/
+	-webkit-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+}
+
+/*button hover*/
+.btn button:hover {
+	background-color: black;
+	color: pink;
+}
+
+/*add button link design*/
+.btn button a:link {color:white;text-decoration:none;}
+.btn button a:visited {color:white;text-decoration:none;}
+.btn button a:hover {color: pink; text-decoration:underline;}
+
+
+/*search box*/
+.form-field input{
+	padding: 10px 3px 10px 15px;
+    font-size: 15px;  
+	letter-spacing: 1px;
+    border: none;
+    background-color: white;
+    box-sizing: border-box;
+	font-family: 'Spartan', sans-serif;
+    width: 30%;
+	height: 6.5%;
+	border-radius: 35px;
+	margin-left: 28em;
+	color: black;
+	
+}
+
+form button.src-btn {
+	padding: 10px 30px 10px 15px;
+    font-size: 15px;  
+	font-weight: bold;
+	letter-spacing: 1px;
+    border: none;
+    background-color: pink;
+    box-sizing: border-box;
+	font-family: 'Spartan', sans-serif;
+    width: 90px;
+	text-align: center;
+	height: 6.5%;
+	border-radius: 35px;
+	margin-left: 10px;
+	color: white;	
+}
+/*button hover*/
+form button.src-btn:hover {
+	background-color: black;
+	color: white;
+}
+
+/*search button link design*/
+form button.src-btn a:link {color:white;text-decoration:none;}
+form button.src-btn a:visited {color:pink;text-decoration:none;}
+form button.src-btn a:hover {text-decoration:underline;}
+
+/*specialize button design for display page*/
+.btn-dsp button{
+	/*text*/
+	font-size: 15px;  
+	letter-spacing: 2px;
+	font-family: 'Spartan', sans-serif;
+	color: white;
+	font-weight: bold;
+	
+	
+	/*box style*/
+	width: 12%;
+	height: 8%;
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+    border: none;
+	background: pink;
+	padding: 11px 15px;
+	cursor: pointer;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;	
+	
+	/*box shadow effect*/
+	-webkit-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+}
+/*button hover*/
+.btn-dsp button:hover {
+	background-color: black;
+	color: pink;
+}
+
+/*add button link design*/
+.btn-dsp button a:link {color:white;text-decoration:none;}
+.btn-dsp button a:visited {color:white;text-decoration:none;}
+.btn-dsp button a:hover {color: pink; text-decoration:underline;}
+
+.btn-dsp button.mg {
+	margin-left: 32em;
+}
+.
