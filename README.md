@@ -21,5 +21,5 @@ Below are the brief description on the functional features for each role: :point
 - Once user log on, the page will display his user profile
 
 ## Video Demo 
-The video below shows a fully functional website on localhost.
-https://youtu.be/bdtgA8p72Js
+This video below shows a fully functional website on localhost.
+[Click Here](https://youtu.be/bdtgA8p72Js)
